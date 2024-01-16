@@ -1,0 +1,13 @@
+{
+    "baseApi":"http://194.113.73.110/doctorvet/backend/php/test/api/appvet/v1/",
+    "device_name":"web",
+    "tipo_login":{
+        "GOOGLE":"GOOGLE"
+    },
+    "sistemas_medidas":{
+        "METRICO_DECIMAL":"METRICO_DECIMAL",
+        "INGLES":"INGLES"
+        
+    }
+
+}

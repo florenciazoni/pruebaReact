@@ -1,0 +1,32 @@
+.listaUsuario {
+    color: white;
+   
+
+}
+.lista :hover{
+    color: #4052b6;
+
+}
+.contendedorPrincipal{
+display: flex;
+
+}
+.MuiContainer-root{
+
+    margin-right: 0%;
+}
+.MuiContainer-root {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+     padding-left: 0px; 
+     padding-right: 0px; 
+    
+}
+
+
+
+/*MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root*/
+
