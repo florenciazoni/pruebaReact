@@ -1,0 +1,122 @@
+.pet-info{
+    color: #606060;
+    
+}
+.pet-drawer{
+    .MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16{
+        width: 100%;
+    }
+    .pet-header{
+        .header-crud{
+            display: flex;
+            justify-content: flex-end;
+            position: absolute;
+            right: 0;
+            color: #fff;
+            span{
+                margin-right: 1em;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary.MuiPaper-elevation4 {
+    box-shadow: none;
+}
+.PrivateTabIndicator-root-4.PrivateTabIndicator-colorSecondary-6.MuiTabs-indicator{
+    background-color: #90caf9;
+}
+.MuiTab-wrapper{
+    font-weight: bold;
+}
+.pet-header{
+    background-color: #4052b6;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div{
+        display: flex;
+        align-items: center;
+    }
+    .pet-data{
+        display: flex;
+        align-items: center;
+        .dog-img{
+            width: 3em;
+            height: 3em;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;//rgba(255,255,255,.75);
+            padding: .5em;
+            box-sizing: border-box;
+            margin: 0 .5em;
+            margin-left: .5em;
+            img{
+                filter: none;
+            }
+        }
+    }
+}
+.pet-info-basic{
+    .pet-avatar{
+        display: flex;
+        align-items: center;
+        .dog-img{
+            width: 2.5em;
+            height: 2.5em;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0,0,0,.25);
+            padding: .5em;
+            box-sizing: border-box;
+            margin: 0 .5em;
+            margin-left: .5em;
+        }
+        .pet-avatar-info{
+            display: flex;
+            flex-direction: column;
+            margin-left: .5em;
+            font-size: .75em;
+        }
+    }
+    .pet-details{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        .item-detail{
+            display: flex;
+            flex-direction: column;
+            span{
+                height: 1em;
+                margin-bottom: .5em;
+            }
+            .title{
+                font-size: .75em;
+            }
+        }
+        .item-detail-deseso{
+            flex-direction: row;
+        }
+    }
+}
+.MuiButtonBase-root.MuiListItem-root.list-item.MuiListItem-gutters.MuiListItem-button {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1em;
+    a{
+        color: #333;
+    }
+}
+
+.spiner-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}

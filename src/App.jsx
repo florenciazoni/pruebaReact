@@ -3,8 +3,9 @@ import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import './App.css'
 import ButtonAppBar from './Components/AppBar/AppBar'
 import SubMenu from './Components/Menu/SubMenu'
-import FechaDesdeAPI from './Components/Menu/FechaApi';
-import CentroEnPagina from './Components/Menu/Menu';
+
+
+
 
 
 
@@ -30,9 +31,9 @@ function App() {
     <>
    
    <ThemeProvider theme={theme}><CssBaseline /> <ButtonAppBar/>
-     <SubMenu/><FechaDesdeAPI/>
+     <SubMenu/>
      
-     <CentroEnPagina/>
+     
      
      
      

@@ -1,0 +1,62 @@
+.select-option{
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.existing-vet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.create-vet{
+    padding: 1em;
+}
+.login-vet-header{
+    position: relative;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .controls{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .title{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 1em;
+        }
+    }
+    .icon-wrapper{
+        padding: .25em;
+        background-color: #fff;
+        color:  #3f51b5;
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: .5em;
+    }
+}
+.set-vet-wrapper{
+    margin: auto;
+    width: 100%;
+    .spiner{
+        width: 100%;
+        padding-top: 5em;
+        display: flex;
+        justify-content: center;
+    }
+}

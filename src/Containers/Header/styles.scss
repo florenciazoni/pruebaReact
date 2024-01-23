@@ -1,0 +1,15 @@
+.header-wrapper{
+    padding: .5em;
+    background-color: #4052b6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    span{
+        margin-left: 1em;
+    }
+}
+@media (min-width: 1024px) {
+    .header-wrapper{
+        height: 2.5em;
+    }
+}

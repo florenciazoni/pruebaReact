@@ -1,0 +1,35 @@
+.vet-detail-wrapper{
+    color: #606060;
+    h4{
+        margin: 0;
+    }
+    .vet-content{
+        box-sizing: border-box;
+        padding: 1em;
+        span{
+            font-size: .75em;
+        }
+    }
+    .vet-header{
+        background-color: #4052b6;
+        color: #fff;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        .store-icon{
+            height: 1.5em;
+            width: 1.5em;
+            font-size: 2em;
+            background-color: #fff;
+            color: #4052b6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin: 0 .5em 0 .5em;
+        }
+        span{
+            font-weight: bold;
+        }
+    }
+}

@@ -1,4 +1,55 @@
-import * as React from 'react';
+
+import React from 'react';
+import {
+    Button,
+    Dialog as DialogComponent, 
+    DialogContent,
+    DialogContentText,
+    DialogActions,
+    Slide,
+} from '@mui/material';
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+    return <Slide direction="up" ref={ref} {...props} />;
+});
+
+const Dialog = (props) => {
+    return (
+        <div>
+            <DialogComponent
+                open={props.open}
+                TransitionComponent={Transition}
+                keepMounted
+                onClose={props.handleClose}
+            >
+              <DialogContent>
+                {props.children}
+                <DialogContentText>
+                  {props.message}
+                </DialogContentText>
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={props.handleClose} color="primary">
+                  {props.CloseText}
+                </Button>
+                {props.okText!==undefined &&
+                <Button onClick={props.handleOk} color="primary">
+                  {props.okText}
+                </Button>
+                }
+              </DialogActions>
+            </DialogComponent>
+        </div>
+    )
+}
+Dialog.defaultProps = {
+    message:'',
+    open:false,
+    CloseText:'Cerrar'
+}
+export default Dialog;
+
+/*import * as React from 'react';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -51,3 +102,4 @@ export default function AlertDialog() {
     </React.Fragment>
   );
 }
+*/

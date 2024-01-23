@@ -1,0 +1,47 @@
+.owner-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    padding: .5em;
+    color: #606060;
+    overflow-x: hidden;
+    .owner-data{
+        .owner-email{
+            font-size: .8em;
+        }
+        .owner-pets-dashboard{
+            display: flex;
+            max-width: 70vw;
+            overflow-x: auto;
+            padding-bottom: 1em;
+            z-index: 1;
+            position: relative;
+        }
+    }
+    h4{
+        margin: 0;
+    }
+    .avatar{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        margin: 0 1em 0em 1em;
+        //background-color: #e3e3e3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+    }
+}
+.owner-pet-name{
+    display: flex;
+    width: max-content;
+    cursor: pointer;
+    span{
+        flex: 0 0 auto;
+        display: inline-block;
+    }
+    margin-right: 1em;
+}

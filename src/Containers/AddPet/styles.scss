@@ -1,0 +1,63 @@
+.addpet-wrapper{
+    padding: 1em;
+}
+.add-pet-form{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.add-pet-container{
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    .chip{
+        display: flex;
+        align-items: center;
+    }
+    .new-pet-header.header{
+        display: flex;
+        position: relative;
+        color: #fff;
+        padding: 1em;
+        .header-title{
+            display: flex;
+            .dog-img{
+                width: 2.5em;
+                height: 2.5em;
+                background-color: #fff;
+                padding: .25em;
+                box-sizing: border-box;
+                border-radius: 50%;
+                margin: 0;
+                img{
+                    filter: none;
+                }
+            }
+            .pet-header-title{
+                font-weight: 600;
+            }
+            .pet-header-subtitle{
+                font-size: 1em;
+            }
+            span{
+                display: flex;
+                flex-direction: column;
+                //margin-left: 1em;
+            }
+        }
+        .add-pet-btn{
+            position: absolute;
+            right: 1em;
+            cursor: pointer;
+            svg{
+                font-size: 2em;
+            }
+        }
+    }
+    .circular-progress {
+        min-height: 50vh;
+    }
+}

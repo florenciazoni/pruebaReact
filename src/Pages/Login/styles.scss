@@ -1,0 +1,136 @@
+$shadow:0 1px 6px 0 rgba(32, 33, 36, 0.5);
+
+.loader-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .loader{
+        transition: all .25s;
+    }
+    .visible{
+        opacity: 1;
+        height: auto;
+    }
+    .hidden{
+        opacity: 0;
+        height: 0;
+    }
+}
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 3em;
+    box-sizing: border-box;
+    .media-login, .user-data{
+        width: 100%;
+        max-width: 30em;
+        box-shadow: $shadow;
+        border-radius: .5rem;
+        padding: 1em;
+    }
+    .user-data{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        a{
+            text-decoration: none;
+            color: #8a8a8a;
+            transition: color .5s;
+            &:hover{
+                color:#3f51b5;
+            }
+        }
+        >span{
+            margin: .25em 0;
+        }
+    }
+    .media-login{
+        box-sizing: border-box;
+        margin-top: 1em;
+        .kep-login-facebook, .google-button{
+            width: 100%;
+            padding: .5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 3em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .kep-login-facebook{
+            background-color: #1979f4;
+            margin-top: 1em;
+        }
+        .google-button{
+        }
+        >span{
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            display: block;
+            padding: 1em;
+            padding-top: 0;
+            color: #8a8a8a;
+        }
+    }
+}
+
+.not-verified{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .login-wrapper{
+        height: auto;
+    }
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+
+    .login-wrapper{
+        height: auto;
+    }
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

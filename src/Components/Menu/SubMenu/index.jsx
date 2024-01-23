@@ -66,7 +66,7 @@ export default function SubMenu(props) {
                       fontWeight: 'bold' // Espacio entre el ícono y el texto
                     }}
                   >
-                    <PetsIcon
+                    <PetsIcon 
                       sx={{
                         borderRadius: "50%",
                         border: "2px solid grey", // Borde de 2 píxeles de ancho, color gris
@@ -75,6 +75,7 @@ export default function SubMenu(props) {
                         color: "grey",
                       }}
                     />
+                    
                     Nuevo Paciente
                   </Link>
                 </Grid>

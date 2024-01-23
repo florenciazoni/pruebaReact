@@ -1,0 +1,23 @@
+.owners-wrapper{
+    width: 100%;
+    .dashboard-content{
+        display: flex;
+    }
+    .menu-lg{
+        width: 25%;
+        border-right: 1px solid #d9d9d9;
+        display: block;
+    }
+    .owners-content{
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .owners-wrapper{
+        .owners-content{
+        }
+        .menu-lg{
+            display: none;
+        }
+    }
+}

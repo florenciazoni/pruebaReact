@@ -1,0 +1,23 @@
+.owners-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    .add-owner{
+        color: #4052b6;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+        cursor: pointer;
+        svg{
+            width: 2.5em;
+            height: 2.5em;
+        }
+    }
+    .spiner{
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+    }
+}

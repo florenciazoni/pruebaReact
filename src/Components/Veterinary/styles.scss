@@ -1,0 +1,56 @@
+.veterinary-wraper{
+    display: flex;
+    padding: 1em 1em; 
+    border-bottom: 1px solid #949494;
+    cursor: pointer;
+    .icon-wrapper{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 50%;
+        background-color: rgba(0,0,0,.3);
+        padding: .25em;
+        display: flex;
+    }
+    .veterinary-data{
+        margin-left: 1em;
+    }
+    .radio-button{
+        width: available;
+        width: -moz-available;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .circle{
+            padding: 0;
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            border: 2px solid #949494;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            margin-left: 1em;
+            .inner-circle{
+                transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                border-radius: 50%;
+                background-color: #949494;
+                width: .4em;
+                height: .4em;
+            }
+        }
+        .circle-active{
+            //border-color: #3f51b5;
+            border-color: #333;
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .inner-circle{
+                background-color: #3f51b5;
+                width: .75em;
+                height: .75em;
+            }
+        }
+    }
+}

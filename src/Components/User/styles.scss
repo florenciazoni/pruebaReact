@@ -1,0 +1,32 @@
+.user-wrapper{
+    .user-header{
+        background-color: #4052b6;
+        color: #fff;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        .user-icon{
+            width: 3em;
+            height: 3em;
+            margin-left: 1em;
+            svg{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .user-name{
+            margin-left: 1em;
+            font-weight: bold;
+        }
+    }
+    .user-content{
+        padding: 1em;
+        box-sizing: border-box;
+        h4{
+            margin: 0;
+        }
+        span{
+            font-size: .75em;
+        }
+    }
+}
